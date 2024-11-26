@@ -12,6 +12,10 @@ https://www.notion.com/pt/templates/category/product-requirements-doc
 https://www.notion.so/acrispteixeira/Documenta-o-de-Requisitos-do-Produto-1480c8ac1bbf80549e00e78626f046db#1480c8ac1bbf80c892a5d2d0edc0d24b
 Card de requisito - https://trello.com/b/FOX6B4UK/kanban-board-sistema-de-consultorio-medico
 
+
+Colocar ER
+https://app.diagrams.net/#G1zs4vEJ7kopiR1pTRi_IrjtNzweYTJXgJ#%7B%22pageId%22%3A%22R2lEEEUBdFMjLlhIrx00%22%7D
+
 ### ℹ️ Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
