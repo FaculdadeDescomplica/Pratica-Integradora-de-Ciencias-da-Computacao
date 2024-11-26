@@ -3,6 +3,8 @@
 ## 📚 Organização desse repositório
 
 ## 💻 Projeto da Disciplina
+https://trello.com/b/5FldI0TK/kanban-quadro-modelo
+https://trello.com/b/FOX6B4UK/kanban-board-sistema-de-consultorio-medico
 
 
 ### ℹ️ Pré-requisitos
