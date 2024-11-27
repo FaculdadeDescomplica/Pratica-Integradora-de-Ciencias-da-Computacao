@@ -16,6 +16,24 @@ Card de requisito - https://trello.com/b/FOX6B4UK/kanban-board-sistema-de-consul
 Colocar ER
 https://app.diagrams.net/#G1zs4vEJ7kopiR1pTRi_IrjtNzweYTJXgJ#%7B%22pageId%22%3A%22R2lEEEUBdFMjLlhIrx00%22%7D
 
+Colocar passo a passo do Banco - Aula 3 do Mod 3
+https://dev.mysql.com/downloads/mysql/
+Executar Mysql Configurator, adicionar senha e seguir pra executar
+https://dev.mysql.com/downloads/workbench/
+Instalar e executar Workbench
+Executar comando para criação do banco
+CREATE DATABASE teste_db;
+Comando para usar o banco
+USE teste_db;
+Criar primeira tabela
+CREATE TABLE clientes ( 
+id INT AUTO_INCREMENT PRIMARY KEY, 
+nome VARCHAR(100), 
+email VARCHAR(100), 
+data_registro DATE );
+Buscar a tabela ou mostrar com select
+
+
 ### ℹ️ Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
