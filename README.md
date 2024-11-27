@@ -34,6 +34,8 @@ data_registro DATE );
 Buscar a tabela ou mostrar com select
 
 
+Colocar o exemplo da aula 6 do mod 3
+
 ### ℹ️ Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
