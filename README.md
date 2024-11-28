@@ -42,6 +42,8 @@ https://lucid.app/lucidchart/1b0222c9-d2e3-438b-bf5e-24d554946532/edit?page=0_0#
 Colocar diagrama de classes da aula
 https://lucid.app/lucidchart/eab36992-1608-4f13-951d-e726ac323dc4/edit?page=HWEp-vi-RSFO&invitationId=inv_a70ad9a9-c256-47da-9cfa-930e12fa0f5f#
 
+Colocar desenho Aula 5 Módulo 6 
+https://app.diagrams.net/?src=about#G1w2b2Y83msRdixhgNEPwMkGcA5dWc_Zh3#%7B%22pageId%22%3A%22EXC9W3TfjAbKltRNDZMO%22%7D
 
 ### ℹ️ Pré-requisitos
 
