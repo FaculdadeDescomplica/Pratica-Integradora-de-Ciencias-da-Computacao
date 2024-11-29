@@ -45,6 +45,9 @@ https://lucid.app/lucidchart/eab36992-1608-4f13-951d-e726ac323dc4/edit?page=HWEp
 Colocar desenho Aula 5 Módulo 6 
 https://app.diagrams.net/?src=about#G1w2b2Y83msRdixhgNEPwMkGcA5dWc_Zh3#%7B%22pageId%22%3A%22EXC9W3TfjAbKltRNDZMO%22%7D
 
+Colocar desenho Aula 6 Módulo 7
+https://app.diagrams.net/#G1tlSm8ojl4TlIVaAo8IvUQlGmTFWabrkd#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
+
 ### ℹ️ Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
