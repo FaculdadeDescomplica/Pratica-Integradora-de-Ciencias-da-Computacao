@@ -1,0 +1,65 @@
+/* Preset básico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #4A90E2; /* Azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Itens em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav a {
+    color: white; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilizando o conteúdo principal */
+main {
+    display: flex; /* Usa Flexbox para layout */
+    margin: 20px;
+}
+
+.conteudo-principal {
+    flex: 3; /* Esta seção ocupa 3 partes do espaço */
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px; /* Espaçamento à direita */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+.sidebar {
+    flex: 1; /* Esta seção ocupa 1 parte do espaço */
+    background-color: #e2e2e2; /* Cinza claro */
+    padding: 20px;
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* Estilizando o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4A90E2; /* Azul */
+    color: white;
+    margin-top: 20px;
+}
