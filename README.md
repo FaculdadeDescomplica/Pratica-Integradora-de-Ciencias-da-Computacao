@@ -51,6 +51,9 @@ https://app.diagrams.net/#G1tlSm8ojl4TlIVaAo8IvUQlGmTFWabrkd#%7B%22pageId%22%3A%
 Colocar desenho Aula 3 Módulo 8
 https://app.diagrams.net/#G1ILYPdkQhOCUquUw5iTpkNbny-HSEpFhK#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
 
+Colocar exemplo da Aula 6 Módulo 9
+https://desenvolvimentowebonline.wordpress.com/?_gl=1*32j0mb*_gcl_au*NjUwMDg5NzY0LjE3MzMxODQyMzA.
+
 ### ℹ️ Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
