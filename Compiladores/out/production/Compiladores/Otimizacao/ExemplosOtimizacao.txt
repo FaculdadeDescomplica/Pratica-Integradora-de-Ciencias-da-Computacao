@@ -1,0 +1,84 @@
+1. Eliminação de Código Morto
+
+int x = 5;
+if (false) {
+    System.out.println("Isso nunca será executado"); // Código morto
+}
+
+2. Propagação de Constantes
+
+int x = 10;
+int y = x + 5; // O compilador pode substituir 'x' por '10'.
+
+Otimização >> int y = 10 + 5; // 'x' foi substituído diretamente.
+
+3. Inlining de Funções
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int result = add(5, 10); // Chamando a função
+
+Otimização >> int result = 5 + 10; // A chamada da função foi substituída pelo cálculo direto.
+
+3. Eliminação de Invariantes de Laço
+
+for (int i = 0; i < n; i++) {
+    total += a[i] * factor; // 'factor' é invariante
+}
+
+Otimização >>
+    int total_factor = factor; // Calcular fora do loop
+    for (int i = 0; i < n; i++) {
+        total += a[i] * total_factor; // Usar o valor calculado
+    }
+
+4. Análise de Fluxo de Dados
+
+int x = 10;
+int y = x; // A variável 'x' é usada aqui.
+int z = x + 5; // 'x' é usado novamente.
+
+Otimização >> identificar que x é usado múltiplas vezes e otimizar o acesso a ela.
+
+5. Eliminação de Cópias
+int x = 5;
+int y = x; // Cópia desnecessária
+
+Otimização >> simplesmente usar x onde y seria usado.
+
+
+===================================== Outros exemplos
+
+6. Desdobramento de Laços
+for (int i = 0; i < 8; i++) {
+    process(i);
+}
+
+Otimização >>
+    for (int i = 0; i < 8; i += 2) {
+        process(i);
+        process(i + 1);
+    }
+
+7. Fusão de Laços
+
+for (int i = 0; i < n; i++) {
+    a[i] = b[i] + 1; // Primeiro loop
+}
+
+for (int i = 0; i < n; i++) {
+    c[i] = a[i] * 2; // Segundo loop
+}
+
+Otimização >>
+    for (int i = 0; i < n; i++) {
+        a[i] = b[i] + 1;
+        c[i] = a[i] * 2;
+    }
+
+8. Otimização de Acesso à Memória
+Quando se trabalha com matrizes,
+percorrer as linhas em vez das colunas pode resultar em um desempenho melhor em muitas arquiteturas,
+devido à localidade de referência.

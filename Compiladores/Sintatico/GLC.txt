@@ -1,0 +1,10 @@
+Exemplo Gramática Livre de Contexto
+
+S       ::= E
+E       ::= E '+' T | T
+T       ::= T '*' F | F
+F       ::= '(' E ')' | NUMBER
+
+Símbolos Terminais: +, *, (, ), NUMBER
+Símbolos Não Terminais: S, E, T, F
+Símbolo Inicial: S

@@ -1,0 +1,38 @@
+Exemplo de Código e Gramática
+
+Expressão aritmética simples
+
+3 + 5 * (2 - 1)
+
+E ::= E + T | E - T | T
+T ::= T * F | T / F | F
+F ::= ( E ) | NUMBER
+
+Análise da Expressão
+
+Dividir a expressão em seus componentes:
+3 + 5 * (2 - 1)
+O símbolo mais + é o operador que combina os dois operandos 3 e 5 * (2 - 1).
+
+5 * (2 - 1)
+Aqui, o símbolo * é o operador que combina 5 e a expressão (2 - 1).
+
+(2 - 1) é uma subexpressão, que contém 2 e 1 sendo subtraídos.
+
+Construção da Árvore Sintática
+
+       E
+       /|\
+      E + T
+     /   /|\
+    T   T * F
+    |   |   |
+    F   F   ( E )
+    |   |   / | \
+  NUMBER  NUMBER  E
+    |       |    |
+    5       2    -
+                / \
+               NUMBER NUMBER
+               |       |
+               1       1

@@ -1,0 +1,27 @@
+Expressão:
+
+x = (a * b) + (c / d);
+
+Representação dos endereços:
+
+t1 = a * b       // t1 armazena o resultado de a * b
+t2 = c / d       // t2 armazena o resultado de c / d
+x = t1 + t2      // x armazena o resultado de t1 + t2
+
+Código Intermediário em Bytecode
+
+int x, y, z;
+x = 10;
+y = 20;
+z = x + y;
+
+Bytecode gerado PODE SER parecido com:
+
+0:   bipush 10         // Carrega o valor 10
+1:   istore_1          // Armazena em 'x' (assumindo que x é a primeira variável local)
+2:   bipush 20         // Carrega o valor 20
+3:   istore_2          // Armazena em 'y' (assumindo que y é a segunda variável local)
+4:   iload_1           // Carrega o valor de 'x'
+5:   iload_2           // Carrega o valor de 'y'
+6:   iadd              // Adiciona x e y
+7:   istore_3          // Armazena o resultado em 'z' (assumindo que z é a terceira variável local)
