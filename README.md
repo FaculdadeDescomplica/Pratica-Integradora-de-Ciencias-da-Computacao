@@ -1,22 +1,40 @@
 # Prática Integradora da Ciência da Computação
+Esse repositório tem como principal objetivo guardar os códigos e exemplos utilizdos nas aulas práticas da disciplina para aprimorar suas habilidades em vários tópicos.
+
 
 ## 📚 Organização desse repositório
+As pastas do repositório, nomes de arquivos e commits indicam qual aula e/ou módulo aquele arquivo está relacionado.
+É necessário acompanhar junto com as aulas.
 
-## 💻 Projeto da Disciplina
-Kanban
-https://trello.com/b/5FldI0TK/kanban-quadro-modelo
-https://trello.com/b/FOX6B4UK/kanban-board-sistema-de-consultorio-medico
+## 💻 Conceitos apresentados em sala de aula e materiais
 
-Requisitos
-https://www.notion.com/pt/templates/category/product-requirements-doc
-https://www.notion.so/acrispteixeira/Documenta-o-de-Requisitos-do-Produto-1480c8ac1bbf80549e00e78626f046db#1480c8ac1bbf80c892a5d2d0edc0d24b
-Card de requisito - https://trello.com/b/FOX6B4UK/kanban-board-sistema-de-consultorio-medico
+### Kanban
+É uma metodologia de gestão visual que usa cartões e colunas para controlar fluxos de trabalho. O termo vem do japonês e significa "sinalização" ou "cartão".
+
+[Trello: Modelo Padrão de um Quadro Kanban](https://trello.com/b/5FldI0TK/kanban-quadro-modelo)
+
+[Trello: Quadro Kanban do Sistema de Consultório Médico](https://trello.com/invite/b/674365bb767f862a1bb9bade/ATTIfbbda997abb54a0bd61ef758498ef79dD272AAA1/kanban-board-sistema-de-consultorio-medico)
+* Preferencialmente, esteja logado a sua conta do Trello para acessar e visualizar o quadro
 
 
-Colocar ER
-https://app.diagrams.net/#G1zs4vEJ7kopiR1pTRi_IrjtNzweYTJXgJ#%7B%22pageId%22%3A%22R2lEEEUBdFMjLlhIrx00%22%7D
+### Requisitos
+Em tecnologia, são especificações que definem as funcionalidades, recursos e restrições de um sistema. Eles são a base para o desenvolvimento de um projeto de TI.
 
-Colocar passo a passo do Banco - Aula 3 do Mod 3
+[Notion: Modelos para PRD: Documento de requisitos do produto](https://www.notion.com/pt/templates/category/product-requirements-doc)
+
+[Documentação de Requisitos do Produto construído em sala de aula](https://acrispteixeira.notion.site/Documenta-o-de-Requisitos-do-Produto-1480c8ac1bbf80549e00e78626f046db)
+* Preferencialmente, esteja logado a sua conta do Notion para acessar e visualizar o documento
+
+Foi apresentado o **Card de requisito** em sala de aula - verificar o link do quadro Kanban acima.
+
+### Diagrama de Entidade-Relacionamento (DER)
+Um diagrama de entidade e relacionamento (também conhecido como diagrama ER ou simplesmente DER) mostra como as entidades (pessoas, objetos e conceitos) interagem.
+
+![DER-ConsultorioMedico](https://github.com/user-attachments/assets/85a169ee-a360-4297-8058-cb1f8f7c9f7e)
+
+### Banco de Dados
+Acompanhar Aula 3 do Módulo 3
+
 https://dev.mysql.com/downloads/mysql/
 Executar Mysql Configurator, adicionar senha e seguir pra executar
 https://dev.mysql.com/downloads/workbench/
@@ -54,20 +72,6 @@ https://app.diagrams.net/#G1ILYPdkQhOCUquUw5iTpkNbny-HSEpFhK#%7B%22pageId%22%3A%
 Colocar exemplo da Aula 6 Módulo 9
 https://desenvolvimentowebonline.wordpress.com/?_gl=1*32j0mb*_gcl_au*NjUwMDg5NzY0LjE3MzMxODQyMzA.
 
-### ℹ️ Pré-requisitos
-
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-
-* Instalou a **versão 17** do `JDK Java` de acordo com seu sistema operacional;
-  * para aula, foi utilizado o Windows 10/11
-* Instalou uma IDE da **sua preferência**;
-  * para aula, foi utilizado o IntelliJ Community
-* Instalou o navegador **da sua preferência**;
-  * para aula, foi utilizado o Google Chrome;
-
-### 🚀 Execução do Projeto
-
-Para essa disciplina, cada código deverá ser executado na IDE com as facilidades da ferramenta.
 
 ### 📫 Contribuindo para a disciplina com exemplos
 <!---Se você foi aluno dessa disciplina e deseja contribuir com ajustes e/ou funcionalidades entre em contato com o responsável da sua aula e considere a criação de um arquivo CONTRIBUTING.md separado--->
