@@ -35,42 +35,66 @@ Um diagrama de entidade e relacionamento (também conhecido como diagrama ER ou 
 ### Banco de Dados
 Acompanhar Aula 3 do Módulo 3
 
-https://dev.mysql.com/downloads/mysql/
-Executar Mysql Configurator, adicionar senha e seguir pra executar
-https://dev.mysql.com/downloads/workbench/
-Instalar e executar Workbench
-Executar comando para criação do banco
-CREATE DATABASE teste_db;
-Comando para usar o banco
-USE teste_db;
-Criar primeira tabela
-CREATE TABLE clientes ( 
-id INT AUTO_INCREMENT PRIMARY KEY, 
-nome VARCHAR(100), 
-email VARCHAR(100), 
-data_registro DATE );
-Buscar a tabela ou mostrar com select
+[Link para Download do MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+Passo a passo:
+1. Executar Mysql Configurator
+2. Adicionar senha
+3. Seguir pra executar
+
+[Link para Download do MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+Passo a passo:
+1. Instalar e executar Workbench
+2. Executar comando para criação do banco (onde test_db será o nome do seu banco de dados)
+   ```
+   CREATE DATABASE teste_db;
+   ```
+4. Comando para usar o banco (onde test_db será o nome do banco de dados criado anteriormente)
+   ```
+   USE teste_db;
+   ```
+6. Criar primeira tabela
+   ```
+   CREATE TABLE clientes (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     nome VARCHAR(100),
+     email VARCHAR(100),
+     data_registro DATE );
+   ```
+7. Buscar a tabela ou mostrar com select
+
+### Acompanhar em aula: aula 6 do Módulo 3
+
+Diagrama de Casos de Uso, ferramenta utilizada: Lucid Charts.
+
+![Diagrama de caso de uso - Sistema de Consultório Médico](https://github.com/user-attachments/assets/2374ea2d-95f2-45a6-b4b8-433a7efd4865)
+
+Diagrama de Classes UML, ferramenta utilizada: Lucid Charts.
+
+![Classe UML](https://github.com/user-attachments/assets/a95e448b-b0d2-40f2-a112-eb04c318d423)
 
 
-Colocar o exemplo da aula 6 do mod 3
+### Acompanhar em aula: aula 5 do Módulo 6
+Ferramenta utilizada: Draw.io
 
-Colocar diagrama de casos de uso
-https://lucid.app/lucidchart/1b0222c9-d2e3-438b-bf5e-24d554946532/edit?page=0_0#
+![API](https://github.com/user-attachments/assets/22ec054b-ec11-421e-b9a3-3228c006b09f)
 
-Colocar diagrama de classes da aula
-https://lucid.app/lucidchart/eab36992-1608-4f13-951d-e726ac323dc4/edit?page=HWEp-vi-RSFO&invitationId=inv_a70ad9a9-c256-47da-9cfa-930e12fa0f5f#
+### Acompanhar em aula: aula 6 do Módulo 7
+Ferramenta utilizada: Draw.io
 
-Colocar desenho Aula 5 Módulo 6 
-https://app.diagrams.net/?src=about#G1w2b2Y83msRdixhgNEPwMkGcA5dWc_Zh3#%7B%22pageId%22%3A%22EXC9W3TfjAbKltRNDZMO%22%7D
+![Blockchain](https://github.com/user-attachments/assets/af62c9a7-a28a-4702-b9a2-27064348c8c3)
 
-Colocar desenho Aula 6 Módulo 7
-https://app.diagrams.net/#G1tlSm8ojl4TlIVaAo8IvUQlGmTFWabrkd#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
+### Acompanhar em aula: aula 3 do Módulo 8
+Ferramenta utilizada: Draw.io
 
-Colocar desenho Aula 3 Módulo 8
-https://app.diagrams.net/#G1ILYPdkQhOCUquUw5iTpkNbny-HSEpFhK#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
+![AppMoveis](https://github.com/user-attachments/assets/8f58f01c-7458-429c-98d3-4a90e256c525)
 
-Colocar exemplo da Aula 6 Módulo 9
-https://desenvolvimentowebonline.wordpress.com/?_gl=1*32j0mb*_gcl_au*NjUwMDg5NzY0LjE3MzMxODQyMzA.
+
+### Acompanhar em aula: aula 6 do Módulo 9
+#### Como publicar seu site na Web
+1. Escolhendo um Serviço de Hospedagem
+2. Registrando um Domínio
+
+Exemplo de site criado com Wordpress: https://desenvolvimentowebonline.wordpress.com/
 
 
 ### 📫 Contribuindo para a disciplina com exemplos
